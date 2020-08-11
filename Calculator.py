@@ -30,6 +30,7 @@ def subraction():
     except ValueError:
         print(Fore.RED+"Oops!")
         print(Fore.RED+"We Cant Subract Number and String")
+        print(Fore.RED+"Try Again")
         subraction()
     else:
         print(Fore.CYAN + "Subration of "+Fore.GREEN+str(firstnumber)+Fore.CYAN+" and "+Fore.GREEN+str(secondnumber)+Fore.CYAN+" is "+Fore.BLUE+str(result))
